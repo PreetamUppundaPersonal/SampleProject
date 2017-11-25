@@ -13,5 +13,5 @@ import org.junit.runner.RunWith;
         tags = {"~@wip", "~@manual"},
         monochrome = true,
         snippets = SnippetType.CAMELCASE)
-public class RunCukesTest {
+public class RunCukesSequence {
 }
