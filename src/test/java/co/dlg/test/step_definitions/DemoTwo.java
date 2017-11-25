@@ -8,7 +8,7 @@ public class DemoTwo extends BaseStepDef {
 
     @Then("^four$")
     public void four() throws Throwable {
-        throw new PendingException();
+        //throw new PendingException();
     }
 
 }

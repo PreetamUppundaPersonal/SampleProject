@@ -17,7 +17,7 @@
         <chromeDriverPath>${basedir}\src\main\resources\drivers\chromedriver.exe</chromeDriverPath>
         <ieDriverPath>${basedir}\src\main\resources\drivers\IEDriverServer.exe</ieDriverPath>
         <geckoDriverPath>${basedir}\src\main\resources\drivers\geckodriver.exe</geckoDriverPath>
-        <!--<phantomjsDriverPath>${basedir}\src\main\resources\drivers\phantomjs.exe</phantomjsDriverPath>-->
+        <phantomjsDriverPath>${basedir}\src\main\resources\drivers\phantomjs.exe</phantomjsDriverPath>
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
         <hamcrest.version>1.3</hamcrest.version>
@@ -166,7 +166,7 @@
                         <configuration>
                             <projectName>cucumber-jvm</projectName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
-                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <cucumberOutput>${project.build.directory}/cucumber_reports/regression_results/cucumber.json</cucumberOutput>
                         </configuration>
                     </execution>
                 </executions>
@@ -192,11 +192,11 @@
                     </includes>
                     <systemPropertyVariables>
                         <driverType>${driverType}</driverType>
-                        <webdriver.chrome.driver>${chromeDriverPath}</webdriver.chrome.driver>
+                        <!--<webdriver.chrome.driver>${chromeDriverPath}</webdriver.chrome.driver>
                         <webdriver.ie.driver>${ieDriverPath}</webdriver.ie.driver>
-                        <webdriver.gecko.driver>${geckoDriverPath}</webdriver.gecko.driver>
-                        <!--<webdriver.phantomjs.driver>${phantomjsDriverPath}</webdriver.phantomjs.driver>-->
-                        <!--<phantomjs.binary.path>${phantomjsDriverPath}</phantomjs.binary.path>-->
+                        <webdriver.gecko.driver>${geckoDriverPath}</webdriver.gecko.driver>-->
+                        <webdriver.phantomjs.driver>${phantomjsDriverPath}</webdriver.phantomjs.driver>
+                        <phantomjs.binary.path>${phantomjsDriverPath}</phantomjs.binary.path>
                         <jenkinsStyleReports>${jenkinsStyleReports}</jenkinsStyleReports>
                     </systemPropertyVariables>
                 </configuration>

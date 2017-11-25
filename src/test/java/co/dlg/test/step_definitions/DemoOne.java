@@ -10,17 +10,17 @@ public class DemoOne extends BaseStepDef {
 
     @Given("^one$")
     public void one() throws Throwable {
-        throw new PendingException();
+        //throw new PendingException();
     }
 
     @When("^two$")
     public void two() throws Throwable {
-        throw new PendingException();
+        //throw new PendingException();
     }
 
     @Then("^three$")
     public void three() throws Throwable {
-        throw new PendingException();
+        //throw new PendingException();
     }
 
 }
