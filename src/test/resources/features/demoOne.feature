@@ -1,6 +1,6 @@
 Feature: feature one
 
-  @usman
+  @smoke
   Scenario: scenario one point one
     Given one
     When two
