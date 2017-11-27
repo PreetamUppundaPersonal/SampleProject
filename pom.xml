@@ -188,7 +188,7 @@
                     <!--<printSummary>true</printSummary>-->
                     <includes>
                         <!--<include>**/*IT.class</include>-->
-                        <include>**/*Test.class</include>
+                        <include>**/SampleJunitTest.class</include>
                     </includes>
                     <systemPropertyVariables>
                         <driverType>${driverType}</driverType>
