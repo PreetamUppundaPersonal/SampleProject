@@ -195,8 +195,8 @@
                         <!--<webdriver.chrome.driver>${chromeDriverPath}</webdriver.chrome.driver>
                         <webdriver.ie.driver>${ieDriverPath}</webdriver.ie.driver>
                         <webdriver.gecko.driver>${geckoDriverPath}</webdriver.gecko.driver>-->
-                        <webdriver.phantomjs.driver>${phantomjsDriverPath}</webdriver.phantomjs.driver>
-                        <phantomjs.binary.path>${phantomjsDriverPath}</phantomjs.binary.path>
+                        <!--<webdriver.phantomjs.driver>${phantomjsDriverPath}</webdriver.phantomjs.driver>
+                        <phantomjs.binary.path>${phantomjsDriverPath}</phantomjs.binary.path>-->
                         <jenkinsStyleReports>${jenkinsStyleReports}</jenkinsStyleReports>
                     </systemPropertyVariables>
                 </configuration>
